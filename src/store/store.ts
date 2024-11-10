@@ -14,7 +14,7 @@ import {
   useSelector,
 } from 'react-redux'
 
-import type { ThunkAction } from 'redux-thunk'
+import type { ThunkAction } from '@reduxjs/toolkit'
 
 import { pokemonApi } from 'api'
 import { isServer } from 'utils'

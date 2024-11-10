@@ -7,7 +7,7 @@
   For a more precise data persisting use listener middlewares.
     (You can find a typed empty template in listener.ts file)
 */
-import type { Action, Middleware } from 'redux'
+import type { Action, Middleware } from '@reduxjs/toolkit'
 
 import { localStorageAppKey } from 'constants/commonConstants'
 import type { RootState } from 'store/store'
