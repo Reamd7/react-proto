@@ -68,7 +68,7 @@ const serverRenderer =
       helmet: HelmetServerState
     }
 
-    const jsx = (
+    const jsx = chunkExtractor.collectChunks(
       <Provider store={store}>
         <HelmetProvider context={helmetContext}>
           <StaticRouter location={location}>

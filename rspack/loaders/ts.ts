@@ -22,6 +22,11 @@ const clientLoader: RuleSetRule = {
             refresh: IS_DEV,
           },
         },
+        experimental: {
+          plugins: [
+            ["@swc/plugin-loadable-components", {}]
+          ],
+        }
       },
     },
   },
